@@ -8,6 +8,8 @@ import TabBarBackground from '@/components/ui/TabBarBackground';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
 
+
+
 export default function TabLayout() {
   const colorScheme = useColorScheme();
 
@@ -39,10 +41,39 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="emotionSelector"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          title: 'Emotion Selector',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="heart.fill" color={color} />,
+          header: () => (
+            <Text style={{ textAlign: 'center' }}>
+              Emotion Selector
+            </Text>
+          )
+        }}
+      />
+      <Tabs.Screen
+        name="scenarios"
+        options={{
+          title: 'Scenarios',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="rectangle.grid.2x2" color={color} />,
+          header: () => (
+            <Text style={{ textAlign: 'center' }}>
+              Scenarios
+            </Text>
+          )
+        }}
+      />
+      <Tabs.Screen
+        name="profile"
+        options={{
+          title: 'My Account',
+          tabBarIcon: ({ color, focused }) => <IconSymbol size={28} name="person.fill" color={color} />,
+          header: () => (
+            <Text style={{ textAlign: 'center' }}>
+              My Account
+            </Text>
+          )
         }}
       />
     </Tabs>
