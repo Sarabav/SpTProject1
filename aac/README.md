@@ -1,50 +1,77 @@
-# Welcome to your Expo app 👋
+# Résonance
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to **Résonance**, an AI-powered assistant designed to help users express their emotions more precisely, authentically, and effectively.
 
-## Get started
+---
 
-1. Install dependencies
+## 📖 About Résonance
 
-   ```bash
-   npm install
-   ```
+### 🎙 What is Résonance?  
 
-2. Start the app
+Résonance is an **Emotion AI assistant** that helps users articulate their emotions in a way that truly reflects their inner thoughts and feelings. Whether you're struggling to find the right words or want to improve your emotional communication, Résonance provides AI-driven guidance to enhance the clarity, depth, and nuance of your expressions.
 
-   ```bash
-    npx expo start
-   ```
+### ✨ Key Features  
 
-In the output, you'll find options to open the app in a
+✅ **Emotion Analysis** 🧠 – Detects and interprets your emotional state based on text input.  
+✅ **Expressive Suggestions** 💡 – Provides alternative phrasings to better convey what you feel.  
+✅ **Context-Aware Refinement** 🔍 – Adjusts your expression to suit different social or professional contexts.  
+✅ **Emotion Logs & Insights** 📊 – Tracks your emotional trends over time and offers self-awareness insights.  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+With **Résonance**, your emotions find their true voice.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🚀 Getting Started
 
-When you're ready, run:
+Follow these steps to set up the project:
+
+### 📌 1. Install Dependencies
+
+Run the following command to install the necessary dependencies:
+
+```bash
+npm install
+npm install axios
+```
+
+### ▶️ 2. Start the App
+
+Launch the app with:
+
+```bash
+npx expo start
+```
+
+This command will start the development server. You'll have options to run the app in:
+
+- [A development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [An Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [An iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a lightweight environment for testing Expo apps
+
+---
+
+## 📂 Project Structure
+
+Start developing by editing the files inside the **app** directory. This project uses file-based routing for navigation.
+
+---
+
+### 🔧 Resetting the Project
+
+If you need a fresh start, run:
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This will move the starter code to the **app-example** directory and create a new blank **app** directory.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📚 Learn More
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Explore Expo's documentation and guides:
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo Documentation](https://docs.expo.dev/) – Learn the basics and dive into advanced topics.
+- [Expo Tutorial](https://docs.expo.dev/tutorial/introduction/) – A step-by-step guide to building apps with Expo.
